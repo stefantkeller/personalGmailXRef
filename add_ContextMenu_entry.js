@@ -1,6 +1,7 @@
 browser.contextMenus.create({
         id: "pgxref",
-        title: "Gmail X-ref from selection"
+        title: "Gmail X-ref from selection",
+        contexts: ["selection"]
 });
 
 browser.contextMenus.onClicked.addListener(function(info, tab){
