@@ -3,15 +3,14 @@ browser.contextMenus.create({
         title: "Gmail X-ref from selection"
 });
 
-//browser.contextMenus.create({
-//        id: "pgxref_query",
-//        title: "Request query for gmail X-ref"
-//});
-
 browser.contextMenus.onClicked.addListener(function(info, tab){
     if (info.menuItemId == "pgxref") {
-        browser.tabs.executeScript({
-                file: "gmail_link.js"
-            });
+        var link = "https://mail.google.com/mail/u/0/?#all/";
+        var linkId = info.selectionText; // https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/contextMenus/create
+        //console.log("pgxref selection :"+linkId);
+        //prompt("","");
+        if (linkId != undefined && linkId != "") {
+            browser.tabs.create({url: link+linkId});
+        };
     }
 });
