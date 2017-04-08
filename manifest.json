@@ -12,6 +12,6 @@
     ],
 
     "background": {
-    "scripts": ["add_ContextMenu_entry.js"]
+    "scripts": ["background.js"]
     }
 }

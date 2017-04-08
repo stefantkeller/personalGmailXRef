@@ -11,6 +11,7 @@ https://addons.mozilla.org/en-US/firefox/addon/doi-search/?src=userprofile
 
 For the development of this pgxref extension I followed the instructions at https://developer.mozilla.org/en-US/Add-ons/WebExtensions
 
+https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Publishing_your_WebExtension
 
 This pgxref extension you can find at
 * addons.mozilla ...
