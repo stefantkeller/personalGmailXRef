@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
     "name": "pgxref",
-    "version": "0.1",
-    "description": "Find gmail thread according to a given email identifyer",
-    "homepage_url": "https://github.com/stefantkeller/...",
+    "version": "1.0",
+    "description": "Select gmail-thread identifier (e.g. AsdF4yuiP) onto https://mail.google.com/mail/u/0/?#all/[here]",
+    "homepage_url": "https://github.com/stefantkeller/personalGmailXRef.git",
 
     "permissions": [
         "tabs",
