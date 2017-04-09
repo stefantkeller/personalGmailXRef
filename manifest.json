@@ -5,6 +5,8 @@
     "description": "Select gmail-thread identifier (e.g. AsdF4yuiP) onto https://mail.google.com/mail/u/0/?#all/[here]",
     "homepage_url": "https://github.com/stefantkeller/personalGmailXRef.git",
 
+    "icons": {"48": "pgxref-48.png"},
+
     "permissions": [
         "tabs",
         "activeTab",
