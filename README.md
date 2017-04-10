@@ -8,5 +8,5 @@ To find the email thread all I have to do is copy the identifyer onto the gmail 
 
 
 This pgxref extension you can find at
-* addons.mozilla ...
+* https://addons.mozilla.org/en-US/firefox/addon/personalgmailxref/
 * https://github.com/stefantkeller/personalGmailXRef.git
